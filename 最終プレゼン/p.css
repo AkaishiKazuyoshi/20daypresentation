@@ -1,0 +1,53 @@
+#indexTitle {
+    text-align: center;
+    /* color:coral; */
+    background-color: aquamarine;
+    width: 400px;
+    margin: 0px auto;
+    border: 1px solid #1a1818;
+}
+
+/* body {
+    background-image:url("img/camrycamp.jpg");
+    background-position:center;
+} */
+
+
+#camryG {
+    background-color: rgb(228, 237, 186);
+    width: 33%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border: 1px solid #1a1818;
+}
+
+#camryWS {
+    background-color: rgb(244, 224, 228);
+    width: 33%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border: 1px solid #1a1818;
+}
+
+#camryWSL {
+    background-color: rgb(229, 221, 248);
+    width: 33%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border: 1px solid #1a1818;
+}
+
+#total{
+    /* width: 500px; */
+    text-align: center;
+    clear: both;
+}
+
+input[type=radio] {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
