@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="p.css" />
+    <script type="text/javascript" src="p.js"></script>
+</head>
+
+<body>
+    <header style="text-align: right; background-color: white;">赤石和佳</header>
+    <nav></nav>
+    <article>
+        <h1 class="articleClass" id="indexTitle">
+            <div>カムリの見積もり</div>
+        </h1>
+        <div id="camryG">カムリ　ノーマルグレード
+            <div><img src="img/G.png" width="200px"></div>
+            <div><input type="radio" id="q1" name="radio" value="true">これにします</div>
+        </div>
+        <div id="camryWS">カムリ WSグレード
+            <div><img src="img/WS.png" width="200px"></div>
+            <div><input type="radio" id="q2" name="radio" value="true">これにします</div>
+        </div>
+        <div id="camryWSL">カムリ　WSレザーパッケージグレード
+            <div><img src="img/WSL.png" width="200px"></div>
+            <div><input type="radio" id="q3" name="radio" value="true">これにします</div>
+        </div>
+        <div id="option" style="margin: auto;text-align: center;clear: both;">オプションを選択してください
+            <div id="roof">サンルーフ
+                <input type="radio" id="o1" name="o1" value="true" onclick="radioDeselection1(this, 1)">
+            </div>
+            <div id="VB">コンセント
+                <input type="radio" id="o2" name="o2" value="true" onclick="radioDeselection1(this, 2)">
+            </div>
+            <div id="taiya">スペアタイヤ
+                <input type="radio" id="o3" name="o3" value="true" onclick="radioDeselection1(this, 3)">
+            </div>
+            <button type="button" onclick="radioDeselection()">選択解除</button>
+            <div id="crect">
+                <button class="btn" onclick="clickBotton()">決定</button>
+            </div>
+        </div>
+        <div id="total">合計金額
+            <a id="totalM"></a>
+        </div>
+    </article>
+    <footer></footer>
+</body>
+
+</html>
