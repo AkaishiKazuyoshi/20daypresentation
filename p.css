@@ -5,11 +5,12 @@
     width: 400px;
     margin: 0px auto;
     border: 1px solid #1a1818;
+    clear: both;
 }
 
-/* body {
-    background-image:url("img/camrycamp.jpg");
-    background-position:center;
+/* #pic {
+    background-image: url("img/camrycamp.jpg");
+    background-position: center;
 } */
 
 
@@ -40,7 +41,7 @@
     border: 1px solid #1a1818;
 }
 
-#total{
+#total {
     /* width: 500px; */
     text-align: center;
     clear: both;
@@ -50,4 +51,20 @@ input[type=radio] {
     width: 25px;
     height: 25px;
     vertical-align: middle;
+}
+
+.optionclass {
+    height: 50px;
+}
+
+#pic {
+    float: left;
+    height: 200px;
+    width: 20%;
+}
+
+#str {
+    float: left;
+    width: 80%;
+    /* text-align: center; */
 }
